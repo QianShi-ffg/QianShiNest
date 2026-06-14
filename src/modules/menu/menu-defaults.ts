@@ -1,0 +1,15 @@
+export const DEFAULT_MENU_ITEMS = [
+  { key: 'overview', name: '网站概况', icon: 'House', route: '/', group: 'main', sort: 10, visible: true },
+  { key: 'creative', name: '创作中心', icon: 'Document', route: 'creative', group: 'main', sort: 20, visible: true },
+  { key: 'diarySetting', name: '生活日记', icon: 'Notebook', route: 'diarySetting', group: 'main', sort: 30, visible: true },
+  { key: 'projectSetting', name: '作品管理', icon: 'Briefcase', route: 'projectSetting', group: 'main', sort: 40, visible: true },
+  { key: 'changelogSetting', name: '更新日志', icon: 'Tickets', route: 'changelogSetting', group: 'main', sort: 50, visible: true },
+  { key: 'commentSetting', name: '评论管理', icon: 'ChatDotRound', route: 'commentSetting', group: 'main', sort: 60, visible: true },
+  { key: 'classifySetting', name: '分类设置', icon: 'Collection', route: 'classifySetting', group: 'setting', sort: 70, visible: true },
+  { key: 'tagsSetting', name: '标签设置', icon: 'CollectionTag', route: 'tagsSetting', group: 'setting', sort: 80, visible: true },
+  { key: 'friendsLinkSetting', name: '友链设置', icon: 'Link', route: 'friendsLinkSetting', group: 'setting', sort: 90, visible: true },
+  { key: 'userInfo', name: '个人信息', icon: 'User', route: 'userInfo', group: 'setting', sort: 100, visible: true },
+  { key: 'accountSetting', name: '账号管理', icon: 'UserFilled', route: 'accountSetting', group: 'setting', sort: 110, visible: true },
+  { key: 'permissionSetting', name: '菜单管理', icon: 'Operation', route: 'permissionSetting', group: 'setting', sort: 120, visible: true },
+  { key: 'roleSetting', name: '角色管理', icon: 'UserFilled', route: 'roleSetting', group: 'setting', sort: 130, visible: true },
+];
